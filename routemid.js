@@ -32,6 +32,7 @@ router.get('/user/:id', (req, res, next) => {
 router.get('/user/:id', (req, res, next) => {
     console.log("next : ",req.params.id)
     res.send('special')
+    
   })
   
   // mount the router on the app
